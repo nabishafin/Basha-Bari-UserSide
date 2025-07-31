@@ -1,16 +1,12 @@
 import React from 'react';
-import Navbar from '@/components/shared/Navbar';
-import Footer from '@/components/shared/Footer';
-import Home from '@/pages/home/page';
 
-const Page = () => {
+
+const page = () => {
   return (
     <div>
-      <Navbar />
-      <Home />
-      <Footer />
+      <h1>Welcome to Basha-Bari</h1>
     </div>
   );
 };
 
-export default Page;
+export default page;
