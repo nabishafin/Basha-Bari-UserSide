@@ -1,9 +1,16 @@
+import React from 'react';
+import Navbar from '@/components/shared/Navbar';
+import Footer from '@/components/shared/Footer';
+import Home from '@/pages/home/page';
 
-
-export default function Home() {
+const Page = () => {
   return (
-    <>
-      <h1>Hello World</h1>
-    </>
+    <div>
+      <Navbar />
+      <Home />
+      <Footer />
+    </div>
   );
-}
+};
+
+export default Page;
